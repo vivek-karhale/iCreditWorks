@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iCreditWorks</title>
+  <link href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="user-login-container">
+      <div class="app-logo">
+        <img src="images/logo.svg" alt="Logo" class="logo">
+      </div>
+      <div class="banner-line"></div>
+      <div class="login-form-container">
+        <h2 class="login-form-title">USER LOGIN</h2>
+        <form id="login-form" class="login-form">
+          <label for="email">
+            <input class="entry-input" type="email" id="email" name="email" placeholder="Business Email ID">
+          </label>
+          <label for="password" class="password-input">
+            <input class="entry-input" type="password" id="password" name="password" placeholder="Password">
+            <span class="eye-icon">
+              <img src="images/icons/eye.svg" alt="Eye Icon" />
+            </span>
+          </label>
+          <label class="input-checkbox">
+            <input type="checkbox" id="remember" name="remember">
+            <span>Remember me</span>
+          </label>
+        </form>
+        <p id="forgot-password-link" class="forget-password-link"><a href="#">Don't remember your password?</a></p>
+      </div>
+      <button id="login-button" class="login-button" type="submit">Login</button>
+      <div class="security-warning-box">
+        <div class="warning-box">
+          <img src="images/icons/lock.svg" alt="Lock Icon" />
+          <p>Your security is our priority</p>
+        </div>
+      </div>   
+    </div>
+
+    <div class="introduction">
+      <img src="images/intro.png" alt="Introduction" />
+      <p>Introducing a remarkable set of new features that simplify and accelerate everyday tasks performed in the Portal. Providers have even greater visibility and control over flexible financing offered through the iCreditWorks native mobile App!</p>
+    </div>
+
+    <div class="introduction-logo">
+      <div class="logo">
+        <p>INTRODUCING</p>
+        <img src="images/logo.svg" alt="icreditworks logo" />
+      </div>
+      <div class="eclipse"></div>
+    </div>
+
+    <div class="desktop-mobile-image">
+      <img class="mobile" src="images/mobile.png" alt="iphone image" />
+      <img class="desktop" src="images/desktop.png" alt="desktop image" />
+    </div>
+
+    <div class="chat-icon-container">
+      <div class="chat-icon">
+        <img src="images/icons/user.svg" alt="user icon" />
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
